@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="don_t_have_a_user_yet_register">Need an account? register</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="profile">Profile</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="user_information">User Information</string>
+    <string name="registered_sessions">Registered Sessions</string>
+    <string name="upcoming_sessions">Upcoming Sessions</string>
+</resources>

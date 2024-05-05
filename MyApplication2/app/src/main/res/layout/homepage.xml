@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!-- Sidebar -->
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FED700"
+        android:orientation="vertical">
+
+        <!-- Logo -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+        <!-- Profile Button -->
+        <Button
+            android:id="@+id/btn_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Profile"
+            android:textColor="@android:color/black" />
+
+        <!-- Upcoming Sessions Button -->
+        <Button
+            android:id="@+id/btn_upcoming_sessions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Upcoming Sessions"
+            android:textColor="@android:color/black" />
+
+        <!-- Registered Sessions Button -->
+        <Button
+            android:id="@+id/btn_registered_sessions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Registered Sessions"
+            android:textColor="@android:color/black" />
+
+        <!-- Registered Sessions Button -->
+        <Button
+            android:id="@+id/btn_attended_sessions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Attended Sessions"
+            android:textColor="@android:color/black" />
+
+        <!-- Logout Button -->
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Logout"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+
+    <!-- Main Content -->
+
+</LinearLayout>
